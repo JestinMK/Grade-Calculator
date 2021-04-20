@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="design.css" />
+    <script src="app.js" ></script>
+
+</head>
+<body>
+    <div class="bg">
+        <div class="form-details">
+            <form class="" id="form" action="">
+                <h1>Grade Calculator</h1>
+                <div class="form-group">
+                    <input type="text" class="tf" class="ip2"  id="JAVA" placeholder="JAVA" class="bg-transparent" required>
+                    <p id="demo"></p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="tf" class="form-control bg-transparent border-left-0 border-right-0 border-top-0 font-weight-bolder text-white" id="PYTHON" placeholder="PYTHON" class="bg-transparent" required>
+                    <p id="demo1"></p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="tf" class="form-control bg-transparent border-left-0 border-right-0 border-top-0 font-weight-bolder text-white" id="PHP" placeholder="PHP" required>
+                    <p id="demo2"></p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="tf"class="form-control bg-transparent border-left-0 border-right-0 border-top-0 font-weight-bolder text-white"  id="SQL" placeholder="SQL" required>
+                    <p id="demo3"></p>
+                </div>
+                <div class="form-group ">
+                    <input type="button" class="button" onclick="calc()" id="sper" value="SHOW PERCENTAGE" class=" app-form-button  bg-transparent border-left-0 border-right-0 border-top-0 font-weight-bolder color-primary text-white btn btn-secondary">
+                    
+                </div>
+                <div class="form-group">
+                    <input type="text" readonly  class="dis" class="form-control bg-transparent border-left-0 border-right-0 border-top-0 font-weight-bolder text-white bg-danger" id="display" >
+                </div>
+            </form>
+
+        </div>
+    </div>    
+</body>
+</html>
